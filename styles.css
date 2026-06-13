@@ -479,13 +479,15 @@ section {
     overflow: hidden;
 }
 
-/* Project screenshot banner (top of card) */
+/* Project screenshot showcase (top of card) */
 .proj-thumb {
     margin: -1.8rem -1.8rem 0.3rem;
     width: calc(100% + 3.6rem);
-    height: 190px;
-    object-fit: cover;
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
     display: block;
+    padding: 16px 0;
     background: linear-gradient(135deg, var(--primary-soft), var(--accent-soft));
     border-bottom: 1px solid var(--border);
 }
